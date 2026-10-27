@@ -190,6 +190,8 @@ Kiểm tra quyền đa tầng:
 
 ## 8. Kết quả thực tế `npm run build`
 
+![Kết quả npm run build](docs/screenshots/build-result.png)
+
 ```text
 Route (app)                                  Size     First Load JS
 ┌ ○ /                                        1.19 kB        96.4 kB
@@ -206,7 +208,7 @@ Route (app)                                  Size     First Load JS
 ├   ├ /deadlines/3
 ├   └ [+9 more paths]
 ├ ƒ /deadlines/[id]/opengraph-image-104vc5   0 B                0 B
-├ ○ /login                                   4.11 kB         101 kB
+├ ○ /login                                   4.71 kB         102 kB
 ├ ○ /robots.txt                              0 B                0 B
 ├ ○ /sitemap.xml                             0 B                0 B
 └ ● /subjects/[slug]                         1.19 kB        96.4 kB
@@ -232,23 +234,32 @@ Route (app)                                  Size     First Load JS
 
 ## 9. Điểm số Lighthouse thực tế trên bản Production
 
-Được đo lường trực tiếp bằng công cụ chính thức Google Lighthouse CLI trên bản build production (`npm run start` tại `http://localhost:3000`):
+![Báo cáo điểm số Google Lighthouse / PageSpeed Insights](docs/screenshots/lighthouse-score.png)
+
+Được đo lường trực tiếp bằng công cụ chính thức **Google PageSpeed Insights / Lighthouse** trên bản build production thực tế (`https://th-03-ltwnc-b23-dccc-001.vercel.app/`):
 
 ### 1. Trang chủ (`/`):
-- **Performance**: **99** / 100
-- **Accessibility**: **95** / 100
-- **Best Practices**: **96** / 100
+- **Hiệu suất (Performance)**: **99** / 100
+- **Hỗ trợ tiếp cận (Accessibility)**: **95** / 100
+- **Phương pháp hay nhất (Best Practices)**: **100** / 100
 - **SEO**: **100** / 100
+- **First Contentful Paint (FCP)**: **0.3 giây**
+- **Largest Contentful Paint (LCP)**: **0.6 giây**
+- **Speed Index**: **0.5 giây**
+- **Total Blocking Time (TBT)**: **110 mili giây**
+- **Cumulative Layout Shift (CLS)**: **0**
 
 ### 2. Trang chi tiết bài tập (`/deadlines/1`):
-- **Performance**: **99** / 100
-- **Accessibility**: **96** / 100
-- **Best Practices**: **96** / 100
+- **Hiệu suất (Performance)**: **99** / 100
+- **Hỗ trợ tiếp cận (Accessibility)**: **96** / 100
+- **Phương pháp hay nhất (Best Practices)**: **100** / 100
 - **SEO**: **100** / 100
 
 ---
 
 ## 10. Minh chứng HTML Server-Rendered và Structured Data (`view-source:/deadlines/1`)
+
+![Ảnh view-source của /deadlines/1](docs/screenshots/view-source-deadline-1.png)
 
 Khi xem mã nguồn HTML thô bằng lệnh `curl http://localhost:3000/deadlines/1`, server trả về HTML tĩnh hoàn chỉnh gồm thẻ JSON-LD BreadcrumbList và thẻ Open Graph:
 
@@ -327,7 +338,7 @@ Nếu hệ thống chỉ đặt niềm tin duy nhất vào Middleware ở tầng
 
 ---
 
-## 13. Hướng dẫn Deploy lên Vercel
+## 13. Deploy lên Vercel
 
 1. Đẩy mã nguồn lên kho lưu trữ GitHub cá nhân:
    ```bash
