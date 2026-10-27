@@ -190,51 +190,11 @@ Kiểm tra quyền đa tầng:
 
 ## 8. Kết quả thực tế `npm run build`
 
-![Kết quả npm run build](docs/screenshots/build-result.png)
+![Run Build](./run build.png)
 
-```text
-Route (app)                                  Size     First Load JS
-┌ ○ /                                        1.19 kB        96.4 kB
-├ ○ /_not-found                              142 B          87.3 kB
-├ ○ /403                                     188 B          95.4 kB
-├ ƒ /admin                                   3.24 kB        98.4 kB
-├ ƒ /api/auth/[...nextauth]                  0 B                0 B
-├ ƒ /api/user/completions                    0 B                0 B
-├ ƒ /dashboard                               2.42 kB         107 kB
-├ ○ /deadlines                               3.13 kB        98.3 kB
-├ ● /deadlines/[id]                          2.42 kB         107 kB
-├   ├ /deadlines/1
-├   ├ /deadlines/2
-├   ├ /deadlines/3
-├   └ [+9 more paths]
-├ ƒ /deadlines/[id]/opengraph-image-104vc5   0 B                0 B
-├ ○ /login                                   4.71 kB         102 kB
-├ ○ /robots.txt                              0 B                0 B
-├ ○ /sitemap.xml                             0 B                0 B
-└ ● /subjects/[slug]                         1.19 kB        96.4 kB
-    ├ /subjects/lap-trinh-web-nang-cao
-    ├ /subjects/kien-truc-thiet-ke-phan-mem
-    ├ /subjects/hoc-may-ung-dung
-    └ /subjects/an-toan-thong-tin
-+ First Load JS shared by all                87.2 kB
-  ├ chunks/117-9822d41c6b131ca7.js           31.6 kB
-  ├ chunks/fd9d1056-51ecc88aa43a4aff.js      53.6 kB
-  └ other shared chunks (total)              1.95 kB
-
-ƒ Middleware                                 47.7 kB
-
-○  (Static)   prerendered as static content
-●  (SSG)      prerendered as static HTML (uses getStaticProps / generateStaticParams)
-ƒ  (Dynamic)  server-rendered on demand
-```
-
-*Toàn bộ 27 trang tĩnh được khởi tạo thành công lúc build không gặp bất kỳ cảnh báo hoặc lỗi nào.*
-
----
 
 ## 9. Điểm số Lighthouse thực tế trên bản Production
-
-![Báo cáo điểm số Google Lighthouse / PageSpeed Insights](docs/screenshots/lighthouse-score.png)
+![Lighthouse Report](./anh%20lighthouse.png)
 
 Được đo lường trực tiếp bằng công cụ chính thức **Google PageSpeed Insights / Lighthouse** trên bản build production thực tế (`https://th-03-ltwnc-b23-dccc-001.vercel.app/`):
 
@@ -258,8 +218,8 @@ Route (app)                                  Size     First Load JS
 ---
 
 ## 10. Minh chứng HTML Server-Rendered và Structured Data (`view-source:/deadlines/1`)
+![View Source](./view_source.png)
 
-![Ảnh view-source của /deadlines/1](docs/screenshots/view-source-deadline-1.png)
 
 Khi xem mã nguồn HTML thô bằng lệnh `curl http://localhost:3000/deadlines/1`, server trả về HTML tĩnh hoàn chỉnh gồm thẻ JSON-LD BreadcrumbList và thẻ Open Graph:
 
