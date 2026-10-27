@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "lap-trinh-web-nang-cao",
+    "code": "INT1414",
+    "name": "Lập trình Web nâng cao",
+    "description": "Nghiên cứu kiến trúc Next.js App Router, SSR, SSG, ISR, Auth.js và tối ưu hiệu năng SEO.",
+    "teacher": "TS. Nguyễn Văn A",
+    "credits": 3
+  },
+  {
+    "slug": "kien-truc-thiet-ke-phan-mem",
+    "code": "INT1416",
+    "name": "Kiến trúc và Thiết kế phần mềm",
+    "description": "Nguyên lý Clean Architecture, mẫu thiết kế Gang of Four và mô hình Microservices hiện đại.",
+    "teacher": "ThS. Trần Thị B",
+    "credits": 3
+  },
+  {
+    "slug": "hoc-may-ung-dung",
+    "code": "INT1430",
+    "name": "Học máy ứng dụng",
+    "description": "Các thuật toán học có giám sát, học không giám sát và triển khai mô hình học máy vào thực tế.",
+    "teacher": "PGS.TS. Lê Văn C",
+    "credits": 3
+  },
+  {
+    "slug": "an-toan-thong-tin",
+    "code": "INT1422",
+    "name": "An toàn thông tin",
+    "description": "Các kỹ thuật mã hóa dữ liệu, xác thực đa yếu tố, phân quyền và bảo mật ứng dụng web.",
+    "teacher": "TS. Phạm Thị D",
+    "credits": 3
+  }
+]

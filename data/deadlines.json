@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "title": "Nộp bài tập thực hành số 3 - Next.js App Router",
+    "description": "Hoàn thiện cổng Class Deadline Hub với đầy đủ SSG, ISR, SSR, NextAuth JWT và phân quyền can().",
+    "subjectSlug": "lap-trinh-web-nang-cao",
+    "subjectCode": "INT1414",
+    "subjectName": "Lập trình Web nâng cao",
+    "dueDate": "2026-11-05T23:59:00",
+    "priority": "high",
+    "type": "Bài tập lớn"
+  },
+  {
+    "id": "2",
+    "title": "Báo cáo tiến độ đề tài môn Lập trình Web",
+    "description": "Nộp slide thuyết trình và liên kết repository GitHub chứa mã nguồn đồ án giữa kỳ.",
+    "subjectSlug": "lap-trinh-web-nang-cao",
+    "subjectCode": "INT1414",
+    "subjectName": "Lập trình Web nâng cao",
+    "dueDate": "2026-11-15T23:59:00",
+    "priority": "medium",
+    "type": "Báo cáo"
+  },
+  {
+    "id": "3",
+    "title": "Bài tập trắc nghiệm Kiến trúc phần mềm tuần 8",
+    "description": "Làm bài kiểm tra ngắn 30 câu hỏi về Design Patterns (Factory, Singleton, Observer) trên hệ thống D2L.",
+    "subjectSlug": "kien-truc-thiet-ke-phan-mem",
+    "subjectCode": "INT1416",
+    "subjectName": "Kiến trúc và Thiết kế phần mềm",
+    "dueDate": "2026-11-02T21:00:00",
+    "priority": "medium",
+    "type": "Trắc nghiệm"
+  },
+  {
+    "id": "4",
+    "title": "Thiết kế biểu đồ lớp và tuần tự hệ thống E-commerce",
+    "description": "Vẽ biểu đồ Class Diagram và Sequence Diagram cho phân hệ thanh toán và giỏ hàng bằng draw.io.",
+    "subjectSlug": "kien-truc-thiet-ke-phan-mem",
+    "subjectCode": "INT1416",
+    "subjectName": "Kiến trúc và Thiết kế phần mềm",
+    "dueDate": "2026-11-18T23:59:00",
+    "priority": "high",
+    "type": "Bài tập lớn"
+  },
+  {
+    "id": "5",
+    "title": "Nộp mã nguồn Lab 4 - Tiền xử lý dữ liệu và PCA",
+    "description": "Thực hiện xử lý giá trị khuyết thiếu, chuẩn hóa thang đo và giảm chiều dữ liệu bằng thuật toán PCA.",
+    "subjectSlug": "hoc-may-ung-dung",
+    "subjectCode": "INT1430",
+    "subjectName": "Học máy ứng dụng",
+    "dueDate": "2026-11-08T23:59:00",
+    "priority": "low",
+    "type": "Thực hành"
+  },
+  {
+    "id": "6",
+    "title": "Huấn luyện mô hình phân loại văn bản tiếng Việt",
+    "description": "Sử dụng TF-IDF và SVM hoặc Logistic Regression để phân loại sắc thái bình luận khách hàng.",
+    "subjectSlug": "hoc-may-ung-dung",
+    "subjectCode": "INT1430",
+    "subjectName": "Học máy ứng dụng",
+    "dueDate": "2026-11-25T23:59:00",
+    "priority": "high",
+    "type": "Đồ án"
+  },
+  {
+    "id": "7",
+    "title": "Bài tập thực hành mã hóa bất đối xứng RSA",
+    "description": "Cài đặt thuật toán sinh khóa RSA, mã hóa thông điệp và xác thực chữ ký số bằng thư viện mật mã.",
+    "subjectSlug": "an-toan-thong-tin",
+    "subjectCode": "INT1422",
+    "subjectName": "An toàn thông tin",
+    "dueDate": "2026-11-10T23:59:00",
+    "priority": "medium",
+    "type": "Thực hành"
+  },
+  {
+    "id": "8",
+    "title": "Kiểm thử thâm nhập lỗ hổng SQL Injection & XSS",
+    "description": "Khai thác phòng thí nghiệm WebGoat hoặc DVWA, chụp màn hình minh chứng và đề xuất biện pháp vá lỗi.",
+    "subjectSlug": "an-toan-thong-tin",
+    "subjectCode": "INT1422",
+    "subjectName": "An toàn thông tin",
+    "dueDate": "2026-11-22T23:59:00",
+    "priority": "high",
+    "type": "Báo cáo"
+  },
+  {
+    "id": "9",
+    "title": "Kiểm tra thực hành giữa kỳ Lập trình Web",
+    "description": "Làm bài thi trực tiếp tại phòng máy tầng 4 nhà A2, triển khai ứng dụng quản lý sinh viên có xác thực.",
+    "subjectSlug": "lap-trinh-web-nang-cao",
+    "subjectCode": "INT1414",
+    "subjectName": "Lập trình Web nâng cao",
+    "dueDate": "2026-11-28T09:30:00",
+    "priority": "high",
+    "type": "Kiểm tra"
+  },
+  {
+    "id": "10",
+    "title": "Đánh giá kiến trúc Microservices của hệ thống Netflix",
+    "description": "Viết tiểu luận phân tích cách Netflix triển khai Service Discovery, Circuit Breaker và API Gateway.",
+    "subjectSlug": "kien-truc-thiet-ke-phan-mem",
+    "subjectCode": "INT1416",
+    "subjectName": "Kiến trúc và Thiết kế phần mềm",
+    "dueDate": "2026-12-05T23:59:00",
+    "priority": "medium",
+    "type": "Tiểu luận"
+  },
+  {
+    "id": "11",
+    "title": "Nộp đề cương đồ án cuối kỳ Học máy ứng dụng",
+    "description": "Mô tả tập dữ liệu thu thập, mục tiêu dự đoán, độ đo đánh giá và kế hoạch thực hiện của nhóm.",
+    "subjectSlug": "hoc-may-ung-dung",
+    "subjectCode": "INT1430",
+    "subjectName": "Học máy ứng dụng",
+    "dueDate": "2026-10-20T23:59:00",
+    "priority": "low",
+    "type": "Đề cương"
+  },
+  {
+    "id": "12",
+    "title": "Báo cáo cấu hình tường lửa iptables và pfSense",
+    "description": "Thiết lập quy tắc lọc gói tin, NAT và DMZ cho mô hình mạng doanh nghiệp vừa và nhỏ.",
+    "subjectSlug": "an-toan-thong-tin",
+    "subjectCode": "INT1422",
+    "subjectName": "An toàn thông tin",
+    "dueDate": "2026-10-25T23:59:00",
+    "priority": "medium",
+    "type": "Thực hành"
+  }
+]
