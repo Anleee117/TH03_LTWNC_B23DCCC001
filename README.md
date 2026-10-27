@@ -318,7 +318,7 @@ Nếu hệ thống chỉ đặt niềm tin duy nhất vào Middleware ở tầng
 
 ---
 
-## 14. Tổng hợp các tiêu chí Điểm cộng (Tối đa +1 điểm)
+## 14. Tổng hợp các tiêu chí Điểm cộng
 
 | Tiêu chí điểm cộng | Trạng thái | Minh chứng trong dự án |
 | :--- | :---: | :--- |
